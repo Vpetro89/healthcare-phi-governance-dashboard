@@ -1,0 +1,12 @@
+I-3001,P-2001,gulf_hie_adt_outbound,MLLP,HL7v2 ADT,Cerner Millennium,Gulf State HIE,Y,Interface Team,Active
+I-3002,P-2001,gulf_hie_results_outbound,MLLP,HL7v2 ORU,Cerner Millennium,Gulf State HIE,Y,Interface Team,Active
+I-3003,P-2002,delta_research_sftp_export,SFTP,CSV,Enterprise Data Warehouse,Delta Research Collaborative,Y,Data Engineering,Active
+I-3004,P-2003,cancer_registry_oru_feed,MLLP,HL7v2 ORU,Cerner Millennium,Regional Cancer Registry,Y,Interface Team,Active
+I-3005,P-2004,telehealth_referral_api,REST,FHIR,Interoperability API Gateway,South Telehealth Network,Y,API Team,Active
+I-3006,P-2005,claims_837_outbound,SFTP,EDI 837,Revenue Cycle Platform,Metro Claims Clearinghouse,Y,Revenue Cycle IT,Active
+I-3007,P-2005,eligibility_270_outbound,SFTP,EDI 270,Revenue Cycle Platform,Metro Claims Clearinghouse,Y,Revenue Cycle IT,Active
+I-3008,P-2006,outcomes_limited_dataset_export,SFTP,CSV,Research Mart,Academic Outcomes Lab,N,Research Informatics,Inactive
+I-3009,P-2007,public_health_elr_feed,MLLP,HL7 ELR,Laboratory System,State Public Health Department,Y,Lab Interface Team,Active
+I-3010,P-2008,northshore_imaging_orders,MLLP,HL7v2 ORM,Radiology RIS,Northshore Imaging Group,Y,Radiology Interface Team,Active
+I-3011,P-2008,northshore_imaging_results,MLLP,HL7v2 ORU,PACS,Northshore Imaging Group,Y,Radiology Interface Team,Active
+I-3012,P-2009,legacy_partner_results_feed,MLLP,HL7v2 ORU,Cerner Millennium,Legacy External Partner,Y,Legacy Interface Team,Active

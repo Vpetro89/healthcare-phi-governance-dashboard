@@ -1,0 +1,8 @@
+metric,value
+contracts_modeled,8
+projects_modeled,8
+interfaces_modeled,11
+unauthorized_data_elements,10
+orphan_projects,1
+orphan_interfaces,1
+contracts_needing_review,0

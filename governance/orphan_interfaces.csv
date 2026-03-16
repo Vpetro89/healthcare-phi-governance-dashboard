@@ -1,0 +1,2 @@
+interface_id,project_id,endpoint_name,protocol,message_standard,source_system,destination_partner,active_flag,technical_owner,endpoint_status,contract_id
+I-3012,P-2009,legacy_partner_results_feed,MLLP,HL7v2 ORU,Cerner Millennium,Legacy External Partner,Y,Legacy Interface Team,Active,

@@ -1,0 +1,9 @@
+contract_id,partner_name,project_count,interface_count,coverage_flag
+C-1001,Gulf State HIE,1,2,Complete
+C-1002,Delta Research Collaborative,1,1,Complete
+C-1003,Regional Cancer Registry,1,1,Complete
+C-1004,South Telehealth Network,1,1,Complete
+C-1005,Metro Claims Clearinghouse,1,2,Complete
+C-1006,Academic Outcomes Lab,1,1,Complete
+C-1007,State Public Health Department,1,1,Complete
+C-1008,Northshore Imaging Group,1,2,Complete

@@ -1,0 +1,12 @@
+contract_id,partner_name,project_id,servicenow_ticket,interface_id,endpoint_name,message_standard,source_system,destination_partner,active_flag,traceability_status
+C-1001,Gulf State HIE,P-2001,SNOW-48021,I-3001,gulf_hie_adt_outbound,HL7v2 ADT,Cerner Millennium,Gulf State HIE,Y,Traceable
+C-1001,Gulf State HIE,P-2001,SNOW-48021,I-3002,gulf_hie_results_outbound,HL7v2 ORU,Cerner Millennium,Gulf State HIE,Y,Traceable
+C-1002,Delta Research Collaborative,P-2002,SNOW-48102,I-3003,delta_research_sftp_export,CSV,Enterprise Data Warehouse,Delta Research Collaborative,Y,Traceable
+C-1003,Regional Cancer Registry,P-2003,SNOW-47888,I-3004,cancer_registry_oru_feed,HL7v2 ORU,Cerner Millennium,Regional Cancer Registry,Y,Traceable
+C-1004,South Telehealth Network,P-2004,SNOW-48291,I-3005,telehealth_referral_api,FHIR,Interoperability API Gateway,South Telehealth Network,Y,Traceable
+C-1005,Metro Claims Clearinghouse,P-2005,SNOW-47655,I-3006,claims_837_outbound,EDI 837,Revenue Cycle Platform,Metro Claims Clearinghouse,Y,Traceable
+C-1005,Metro Claims Clearinghouse,P-2005,SNOW-47655,I-3007,eligibility_270_outbound,EDI 270,Revenue Cycle Platform,Metro Claims Clearinghouse,Y,Traceable
+C-1006,Academic Outcomes Lab,P-2006,SNOW-47402,I-3008,outcomes_limited_dataset_export,CSV,Research Mart,Academic Outcomes Lab,N,Traceable
+C-1007,State Public Health Department,P-2007,SNOW-48089,I-3009,public_health_elr_feed,HL7 ELR,Laboratory System,State Public Health Department,Y,Traceable
+C-1008,Northshore Imaging Group,P-2008,SNOW-48177,I-3010,northshore_imaging_orders,HL7v2 ORM,Radiology RIS,Northshore Imaging Group,Y,Traceable
+C-1008,Northshore Imaging Group,P-2008,SNOW-48177,I-3011,northshore_imaging_results,HL7v2 ORU,PACS,Northshore Imaging Group,Y,Traceable

@@ -1,0 +1,10 @@
+project_id,project_name,contract_id,servicenow_ticket,owner_team,implementation_status,go_live_date,platform,last_updated
+P-2001,Gulf State HIE ADT Feed,C-1001,SNOW-48021,Interoperability,Production,2025-02-10,ServiceNow,2026-03-01
+P-2002,Research Extract for Delta,C-1002,SNOW-48102,Data Governance,UAT,2025-04-30,ServiceNow,2026-03-01
+P-2003,Cancer Registry ORU Submission,C-1003,SNOW-47888,Oncology Informatics,Production,2024-08-15,ServiceNow,2026-03-01
+P-2004,Telehealth FHIR Referral API,C-1004,SNOW-48291,API Integration,Production,2025-06-12,ServiceNow,2026-03-01
+P-2005,Claims Clearinghouse EDI Gateway,C-1005,SNOW-47655,Revenue Cycle,Production,2024-12-01,ServiceNow,2026-03-01
+P-2006,Academic Outcomes Cohort Export,C-1006,SNOW-47402,Research Informatics,Retired,2024-10-05,ServiceNow,2026-03-01
+P-2007,Public Health ELR,C-1007,SNOW-48089,Lab Informatics,Production,2025-02-01,ServiceNow,2026-03-01
+P-2008,Northshore Imaging Exchange,C-1008,SNOW-48177,Radiology Ops,Implementation,2025-03-18,ServiceNow,2026-03-01
+P-2009,Legacy Partner Results Feed,,SNOW-46991,Interoperability,Production,2024-05-10,ServiceNow,2026-03-01

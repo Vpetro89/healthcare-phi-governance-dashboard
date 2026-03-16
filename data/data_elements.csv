@@ -1,0 +1,17 @@
+data_element_id,data_element_name,domain,sensitivity_level,hl7_segment,hl7_field,fhir_resource,fhir_element
+DE-4001,patient_mrn,Identity,PHI,PID,3,Patient,identifier
+DE-4002,patient_name,Identity,PHI,PID,5,Patient,name
+DE-4003,date_of_birth,Demographic,PHI,PID,7,Patient,birthDate
+DE-4004,sex,Demographic,PHI,PID,8,Patient,gender
+DE-4005,encounter_id,Encounter,Moderate,PV1,19,Encounter,identifier
+DE-4006,admit_datetime,Encounter,Moderate,PV1,44,Encounter,period.start
+DE-4007,discharge_datetime,Encounter,Moderate,PV1,45,Encounter,period.end
+DE-4008,diagnosis_code,Clinical,High,DG1,3,Condition,code
+DE-4009,lab_test_code,Clinical,Moderate,OBR,4,Observation,code
+DE-4010,lab_result_value,Clinical,High,OBX,5,Observation,value
+DE-4011,provider_npi,Provider,Low,PV1,7,Practitioner,identifier
+DE-4012,payer_id,Financial,Moderate,IN1,3,Coverage,payor
+DE-4013,claim_amount,Financial,High,FT1,11,Claim,total
+DE-4014,address,Demographic,PHI,PID,11,Patient,address
+DE-4015,phone_number,Demographic,PHI,PID,13,Patient,telecom
+DE-4016,death_indicator,Clinical,High,PID,30,Patient,deceasedBoolean

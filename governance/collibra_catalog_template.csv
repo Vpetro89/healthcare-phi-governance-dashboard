@@ -1,0 +1,7 @@
+asset_id,asset_type,business_name,technical_name,steward,source_system,sensitivity_level,retention_rule,sharing_authority
+CAT-5001,Data Set,ADT Outbound Feed,gulf_hie_adt_outbound,Interoperability Steward,Cerner Millennium,PHI,7 Years,C-1001
+CAT-5002,Data Set,Results Outbound Feed,gulf_hie_results_outbound,Interoperability Steward,Cerner Millennium,PHI,7 Years,C-1001
+CAT-5003,Data Set,Research Cohort Extract,delta_research_sftp_export,Research Steward,Enterprise Data Warehouse,High,5 Years,C-1002
+CAT-5004,API,Telehealth Referral API,telehealth_referral_api,API Governance Lead,Interoperability API Gateway,PHI,7 Years,C-1004
+CAT-5005,Data Set,Claims 837 Outbound,claims_837_outbound,Revenue Cycle Steward,Revenue Cycle Platform,High,7 Years,C-1005
+CAT-5006,Data Set,ELR Feed,public_health_elr_feed,Lab Informatics Steward,Laboratory System,High,10 Years,C-1007

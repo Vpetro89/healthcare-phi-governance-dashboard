@@ -1,0 +1,42 @@
+{
+  "pipeline_name": "healthcare_data_governance_ingestion",
+  "description": "Sample orchestration flow to ingest contract, project, interface, and data element metadata into a governance analytics workspace.",
+  "steps": [
+    {
+      "step": 1,
+      "name": "load_contract_registry",
+      "source": "contracts.csv",
+      "target": "stg_contracts"
+    },
+    {
+      "step": 2,
+      "name": "load_project_registry",
+      "source": "projects.csv",
+      "target": "stg_projects"
+    },
+    {
+      "step": 3,
+      "name": "load_interface_inventory",
+      "source": "interfaces.csv",
+      "target": "stg_interfaces"
+    },
+    {
+      "step": 4,
+      "name": "load_authorized_elements",
+      "source": "authorized_data_elements.csv",
+      "target": "stg_authorized_data_elements"
+    },
+    {
+      "step": 5,
+      "name": "load_implemented_elements",
+      "source": "interface_data_elements.csv",
+      "target": "stg_interface_data_elements"
+    },
+    {
+      "step": 6,
+      "name": "run_provenance_reconciliation",
+      "source": "python:notebooks/provenance_reconstruction.py",
+      "target": "governance outputs"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+interface_id,data_element_id,implemented_flag,data_element_name,domain,sensitivity_level,hl7_segment,hl7_field,fhir_resource,fhir_element,project_id,endpoint_name,contract_id,authorization_status
+I-3002,DE-4002,Y,patient_name,Identity,PHI,PID,5,Patient,name,P-2001,gulf_hie_results_outbound,C-1001,Not Authorized
+I-3002,DE-4003,Y,date_of_birth,Demographic,PHI,PID,7,Patient,birthDate,P-2001,gulf_hie_results_outbound,C-1001,Not Authorized
+I-3002,DE-4009,Y,lab_test_code,Clinical,Moderate,OBR,4,Observation,code,P-2001,gulf_hie_results_outbound,C-1001,Not Authorized
+I-3002,DE-4010,Y,lab_result_value,Clinical,High,OBX,5,Observation,value,P-2001,gulf_hie_results_outbound,C-1001,Not Authorized
+I-3003,DE-4014,Y,address,Demographic,PHI,PID,11,Patient,address,P-2002,delta_research_sftp_export,C-1002,Not Authorized
+I-3012,DE-4001,Y,patient_mrn,Identity,PHI,PID,3,Patient,identifier,P-2009,legacy_partner_results_feed,,Not Authorized
+I-3012,DE-4002,Y,patient_name,Identity,PHI,PID,5,Patient,name,P-2009,legacy_partner_results_feed,,Not Authorized
+I-3012,DE-4014,Y,address,Demographic,PHI,PID,11,Patient,address,P-2009,legacy_partner_results_feed,,Not Authorized
+I-3012,DE-4015,Y,phone_number,Demographic,PHI,PID,13,Patient,telecom,P-2009,legacy_partner_results_feed,,Not Authorized
+I-3012,DE-4016,Y,death_indicator,Clinical,High,PID,30,Patient,deceasedBoolean,P-2009,legacy_partner_results_feed,,Not Authorized

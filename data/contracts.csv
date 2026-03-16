@@ -1,0 +1,8 @@
+C-1001,Gulf State HIE,HIE,2025-01-01,2026-12-31,ADT and results exchange,ADT|ORM|ORU,Active,Legal Ops,Y
+C-1002,Delta Research Collaborative,Research,2025-03-15,2026-03-14,De-identified outcomes extract,DEIDENTIFIED_ONLY,Active,Research Admin,Y
+C-1003,Regional Cancer Registry,Registry,2024-07-01,2026-06-30,Oncology registry submission,ORU,Active,Population Health,N
+C-1004,South Telehealth Network,Provider,2025-05-01,2026-04-30,Referral continuity of care,FHIR_API,Active,Clinical Informatics,Y
+C-1005,Metro Claims Clearinghouse,Vend​or,2024-11-01,2026-10-31,Claims and eligibility exchange,EDI_837|EDI_270,Active,Revenue Cycle,N
+C-1006,Academic Outcomes Lab,Research,2024-09-01,2025-08-31,Patient cohort export,LIMITED_DATASET,Expired,Research Admin,Y
+C-1007,State Public Health Department,Public Health,2025-01-15,2027-01-14,Reportable disease submission,HL7_ELR,Active,Compliance,N
+C-1008,Northshore Imaging Group,Provider,2025-02-01,2026-01-31,Imaging order/results exchange,ORM|ORU,Active,Radiology Ops,Y
